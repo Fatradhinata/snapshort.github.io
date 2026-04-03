@@ -1,0 +1,122 @@
+.right-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    width: 65%;
+    height: fit-content;
+}
+
+.centered form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.change-pp-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.change-pp-parent button {
+    border-radius: 5px;
+    background: #424874;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 2px 25px;
+    font-size: 12px;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(1.2)
+    }
+}
+
+.change-pp-parent img {
+    width: 7vw;
+}
+
+.setup-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    border: 2px solid #424874;
+    height: 6vh;
+    gap: 15px;
+    padding: 3px 12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    width: 100%;
+}
+
+.input-group .icon-left-input {
+    color: #424874;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-left-input img {
+    width: 24px;
+    height: 26.842px;
+    flex-shrink: 0;
+}
+
+.setup-input .header-paragh {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.username-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.back-paragh {
+    text-align: center;
+    color: #424874;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        filter: brightness(1.5)
+    }
+}
+
+.redirect-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 25px   
+}
+
+#profile-picture {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    object-fit: cover;
+}

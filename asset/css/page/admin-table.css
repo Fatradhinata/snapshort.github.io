@@ -1,0 +1,347 @@
+.parent {
+    margin-left: 270px;
+    padding-top: 130px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins' !important;
+    gap: 20px;
+    width: 78vw;
+}
+
+.title-table {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ADADAD;
+    padding: 15px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.title-table h5 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.title-table .last-release {
+    border: 1px solid #ADADAD;
+    display: flex;
+    padding: 2px 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.title-table img {
+    width: 20px;
+    height: 20px;
+}
+
+.title-table select {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    color: #858585;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.top-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.data-table {
+    padding: 15px;
+    border: 1px solid #ADADAD;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.data-table .search {
+    display: flex;
+    background-color: #EFEFEF;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 20px;
+    gap: 5px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.data-table .search svg {
+    width: 20px;
+    height: 20px;
+    filter: invert(64%) sepia(10%) saturate(13%) hue-rotate(36deg) brightness(93%) contrast(91%);
+}
+
+.data-table .search input {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.data-table .select-parent select {
+    outline: none;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    color: #858585;
+}
+
+.core-table thead tr th:first-child,
+.core-table tbody tr td:first-child {
+    text-align: center;
+    width: 50px;
+}
+
+.select-parent {
+    border: 1px solid #ADADAD;
+    padding: 7px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-right: 1vw;
+}
+
+.select-parent svg {
+    width: 20px;
+    height: 20px;
+}
+
+.top-div button {
+    background-color: #24A0ED;
+    font: 500 11px 'Poppins';
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    letter-spacing: .3px;
+}
+
+.top-div button svg {
+    width: 15px;
+    height: 15px;
+}
+
+.core-table {
+    margin-top: 5vh;
+}
+
+.core-table {
+    font-size: 11px;
+    width: 100%;
+}
+
+.core-table thead th {
+    background-color: #F6F6F6;
+    font-weight: 600;
+    padding: 10px 0px;
+    border-top: 1px solid #ADADAD;
+    border-bottom: 1px solid #ADADAD;
+}
+
+.core-table tbody td {
+    font: 500 10.5px 'Poppins';
+    padding: 7.5px 0px;
+    border-top: 1px solid black;
+}
+
+.core-table tbody tr:first-child td {
+    border-top: 0px;
+}
+
+.core-table tr td p {
+    margin: 0px;
+}
+
+.core-table .action {
+    display: flex;
+    justify-content: space-around;
+}
+
+.core-table .action svg:first-child {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.core-table .action svg:nth-child(2) {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.core-table .view-user,
+.core-table .delete-user,
+.edit-content {
+    padding: 5px;
+    border-radius: 2.5px;
+}
+
+.core-table .view-user {
+    background-color: #4C74AF;
+}
+
+
+.core-table .delete-user {
+    background-color: #AF4C4C;
+}
+
+.bottom-setting {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.select-limit-row,
+.pagination-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: #858585;
+    border: 1px solid #ADADAD;
+    border-radius: 10px;
+    padding: 7.5px 10px;
+}
+
+.pagination-page {
+    display: flex;
+    gap: 10px;
+}
+
+.pagination-page p {
+    margin: 0;
+    padding-right: 5px;
+}
+
+.select-limit-row select {
+    border: none;
+    outline: none;
+}
+
+.pagination-page p span {
+    font-weight: 600;
+}
+
+.pagination-page div {
+    width: fit-content;
+    height: fit-content;
+}
+
+.pagination-page div svg {
+    width: 11px;
+    height: 11px;
+}
+
+.chevron-right {
+    rotate: 180deg;
+}
+
+.chevron-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #ADADAD;
+    padding: 5px 0px 5px 10px;
+}
+
+.popup-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.46);
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-popup {
+    background-color: #505050;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    width: 500px;
+    gap: 10px;
+    transition: display 1s;
+}
+
+.delete-popup h5 {
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+}
+
+.delete-popup hr {
+    border-color: #B5B5B5;
+    width: 100%;
+}
+
+.delete-popup p.validation {
+    text-align: center;
+    font-size: 14px;
+}
+
+.delete-popup .reason {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.delete-popup textarea {
+    background-color: #919191;
+    resize: none;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    padding: 5px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.delete-popup .button-valid {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.delete-popup .cancel {
+    background-color: #4CAF50;
+}
+
+.delete-popup .delete {
+    background-color: #AF4C4C;
+}
+
+.delete-popup button {
+    color: white;
+    outline: none;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 2px;
+}
+
+.delete-popup #us-name {
+    color: #66E36B;
+    font-weight: 500;
+}
+
+.status-post label {
+    margin: 0px
+}

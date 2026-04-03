@@ -1,0 +1,114 @@
+@media only screen and (max-width: 993px) {
+    .search-li .pr-1:first-child{
+        display: none;
+    }
+
+    .search-li .pr-1:nth-child(2){
+        background-color: transparent;
+    }
+
+    .span-search img {
+        height: 25px;
+    }
+
+    .span-search, .form-search{
+        padding: 0px !important ;
+    }
+
+    .search-li .form-search{
+        background-color: transparent !important;
+    }
+
+    .search-li {
+        margin: 0px !important;
+    }
+
+    .fa-bell {
+        font-size: 25px !important;
+    }
+
+    .user-icon-cont {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .ul-right-nav {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mr-2 {
+        margin: 0px !important;
+    }
+
+    #user-profile {
+        width: 140px !important;
+    }
+
+    .navbar-brand {
+        margin-right: 35% !important;
+    }
+
+    .navbar-brand img {
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-brand {
+        margin: 0px !important;
+    }
+
+    .logo {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .fa-bars {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .fa-bell {
+        font-size: 18px !important;
+    }
+
+    .fa-user {
+        font-size: 12px;
+    }
+
+    .user-icon-cont {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .username {
+        display: none;
+    }
+
+    #user-profile {
+        justify-content: center !important;
+        gap: 10px;
+        width: fit-content !important;
+    }
+
+    .container-fluid {
+        justify-content: space-between !important;
+    }
+
+    .user-account-navbar {
+        width: fit-content !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #main-navbar {
+        width: 380px;
+        position: absolute;
+    }
+}

@@ -1,0 +1,301 @@
+.parent-content {
+    margin-left: 355px !important;
+    width: 75vw;
+    font-family: 'Poppins';    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.upload-outer-div {
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, .25);
+    width: 85%;
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px;
+    border-radius: 10px;
+}
+
+.dotted-border-upload {
+    border: 2px dotted #686868;
+    width: inherit;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.core-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.core-upload h3 {
+    color: #727272;
+    font-weight: 700;
+}
+
+.core-upload button {
+    background-color: #424874;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    font-family: 'poppins';
+    font-weight: 600;
+    letter-spacing: .4px;
+    outline: none;
+}
+
+.core-upload button:hover {
+    background-color: #5b63a0;
+    cursor: pointer;
+}
+
+.core-upload button:focus {
+    outline: none;
+}
+
+.core-upload h6 {
+    color: #727272;
+    font-weight: 600;
+}
+
+.parent-content h4 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* ================================================================================================================ */
+/* ================================================================================================================ */
+/* ================================================================================================================ */
+
+    .parent-content-two {
+        display: none;
+        margin-left: 355px !important;
+        width: 75vw;
+        font-family: 'Poppins';   
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60px;
+        gap: 30px;
+    }
+
+    .video-parent {
+        position: relative;
+    }
+
+    .content-parent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .reaction-video {
+        position: absolute;
+        bottom: 80px;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .reaction-video .button-reaction {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .reaction-video .button-reaction svg {
+        width: 15px;
+        height: 15px;
+        opacity: .6;
+    }
+
+    .reaction-video span p {
+        margin-top: 3px !important;
+        margin-bottom: 10px !important;
+        color: white;
+        font-size: 11px;
+    }
+
+    .info-video {
+        position: absolute;
+        bottom: 2px;
+        color: white;
+        font-size: 11.5px;
+        width: 80%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        letter-spacing: .5px;
+    }
+
+    .info-video .user-profile-name span {
+        opacity: .7;
+    }
+
+    .caption-content p {
+        margin-bottom: 10px;
+    }
+
+    .button-reaction:hover svg {
+        filter: brightness(.8);
+    }
+
+    .parent-content-two .upload-outer-div {
+        display: flex;
+        justify-content: center;
+        padding: 15px 30px;
+        gap: 6vw;
+    }
+
+    .video-parent video {
+        border-radius: 15px;
+    }
+
+    .file-name-parent {
+        border: 1px solid #9C9C9C;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+        padding: 5px 10px;
+        font-weight: 500;
+        color: #7D7D7D;
+        border-radius: 2.5px;
+    }
+
+    .file-name-parent button {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-weight: 600;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .video-detail-set {
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .video-detail-set .input-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .video-detail-set .input-group input {
+        width: 100%;
+        background-color: #EEEFF2;
+        height: 30px;
+        padding: 0px 4px;
+    }
+
+    .video-detail-set .input-group select {
+        background-color: #EEEFF2;
+        width: 50%;
+    }
+
+    .video-detail-set .input-group:nth-child(3) select {
+        height: 30px;
+    }
+
+    .video-detail-set .input-group input,
+    .video-detail-set .input-group select {
+        border: 1px solid #424874;
+        border-radius: 2px;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 20px;
+
+        &:focus {
+            outline: none
+        }
+    }
+
+    .btn-sub-parent {
+        display: flex;
+        gap: 20px;
+    }
+
+    .btn-sub-parent button {
+        height: 6vh;
+        width: 10vw;
+        outline: none;
+        font-family: 'Poppins';
+        background-color: transparent;
+        border: 1px solid #707070;
+        cursor: pointer;
+
+        &:hover {
+            filter: brightness(1.2);
+        }
+    }
+
+    .post-btn {
+        background-color: #424874 !important;
+        color: white;
+        border: none;
+    }
+
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .input-parent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-group span {
+        font-size: 14px;
+    }
+
+    .video-parent video {
+        min-width: 250px;
+        min-height: 440px;
+        background-color: rgb(43 43 43);
+    }
+
+    .user-profile-name p {
+        opacity: .7;
+        font-weight: 600 !important;
+    }
+
+    .capt {
+        font-weight: 400;
+        opacity: .7;
+        white-space: nowrap;
+        overflow: hidden;   
+        text-overflow: ellipsis;
+    }
+
+    .file-name-parent span {
+        text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 125px;
+
+    }
+    

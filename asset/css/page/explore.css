@@ -1,0 +1,156 @@
+.parent-content {
+    margin-left: 315px;
+    margin-top: 18vh;
+    width: 75vw;
+    justify-content: space-between;
+    font-family: 'Poppins';    
+}
+
+.category {
+    margin-left: 12.5px;
+    margin-top: 20px;
+}
+
+.parent-content h4 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.category .row{
+    display: flex;
+    gap: 15px;
+}
+
+.category .row .category-btn {
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 18px;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background .5s ease;
+
+    &:focus {
+        outline: none;
+        border: none;
+    }
+
+    &:hover {
+        filter: brightness(.9)
+    }
+}
+
+.video-random {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 35px;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+
+.video-parent {
+    width: fit-content;
+    max-width: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.thumbnail-video {
+    width: fit-content;
+    height: 281px;
+    position: relative;
+}
+
+.view-count {
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    letter-spacing: .5px;
+}
+
+#thumbnail {
+    width: 200px;
+    height: 281px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.profile {
+    cursor: pointer;
+
+    &:hover {
+        color: #5b64a4;
+        font-weight: 500;
+    }
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.video-description {
+    width: auto;
+    height: 35px;
+    max-height: 35px;
+    max-width: 30vw;
+}
+
+.video-description span {
+    color: #424874;
+}
+
+.video-description p {
+    font-size: 12px;
+    font-weight: 500;
+    width: 90%;
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 35px;
+}
+
+.profile p {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.reaction svg {
+    width: 15px;
+    height: 13px;
+    filter: invert(51%) sepia(4%) saturate(15%) hue-rotate(314deg) brightness(102%) contrast(88%);
+}
+
+.reaction span {
+    color: #858585;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.profile-reaction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-reaction .profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cat-active {
+    background-color: #424874 !important;
+    color: white;
+    transition: background .5s ease;
+}

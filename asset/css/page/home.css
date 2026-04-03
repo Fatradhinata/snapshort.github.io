@@ -1,0 +1,279 @@
+
+.parent-content {
+    margin-left: 315px;
+    width: 75vw;
+    justify-content: space-between;
+    font-family: 'Poppins';    
+}
+
+.parent-content a {
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.parent-content a:hover {
+    color: red;
+    filter: brightness(.5);
+    text-decoration: none;
+}
+
+.parent-content h4 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.tab-1 button:focus {
+    outline: none;
+    border: none;
+}
+
+.tab-1 button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.tab-1 button:active {
+    filter: brightness(.8);
+}
+
+.card-user-info {
+    padding: 18px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-long-header {
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+
+.user-content .user-description label {
+    margin-bottom: 0px !important;
+}
+
+/* ======================= Content Video ======================= */
+/* ======================= Content Video ======================= */
+.tab-2 {
+    display: flex;
+}
+
+.content-video-parent {
+    position: relative;
+    cursor: pointer;
+}
+
+.content-video-parent video{
+    cursor: pointer;
+}
+
+.content-content span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.content-content .thumb-content {
+    border-radius: 5px; 
+    filter: blur(.6px); 
+    filter: brightness(.8);
+}
+
+.content-content {
+    position: relative; 
+    width: fit-content; 
+    text-align: center;
+    padding: 0px !important;
+}
+
+/* ---------------------Reaction Styling--------------------- */
+
+.reaction-video {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reaction-video .button-reaction {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.reaction-video .button-reaction svg {
+    width: 20px;
+    height: 20px;
+}
+
+.reaction-video span p {
+    margin-top: 3px !important;
+    margin-bottom: 10px !important;
+    color: white;
+    font-size: 11px;
+}
+
+.info-video {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size: 12px;
+    width: 270px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    letter-spacing: .5px;    
+}
+
+.info-video .user-profile-name span{
+    opacity: .7;
+}
+
+.caption-content p {
+    margin-bottom: 20px;
+}
+
+.categories button {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    width: 68px;
+    height: 27px;
+    outline: none;
+    border: none;
+    color: white;
+    letter-spacing: .5px;
+}
+
+.categories {
+    display: flex;
+    gap: 10px;
+}
+
+.button-reaction:hover svg {
+    filter: brightness(.8);
+}
+
+/* ---------------------Pause Animation--------------------- */
+
+.pause-animation {
+    position: absolute;
+    top: 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pause-animation img {
+    width: 40px;
+}
+
+/* ---------------------Mini Control Video--------------------- */
+
+.mini-control-video {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.expand-div {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+
+.swipe-vid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.swipe-vid div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.mini-control-video svg {
+    width: 38px;
+    cursor: pointer;
+}
+
+.mute-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;    
+}
+
+.mute-div:hover {
+    filter: brightness(.9);
+}
+
+.mute-div img {
+    width: 38px;
+}
+
+/* ======================= Tab 3 ======================= */
+/* ======================= Tab 3 ======================= */
+
+.tab-3 {
+    display: flex;
+    align-items: center;
+}
+
+.user-acc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.acc-name {
+    font-size: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+
+.user-acc p {
+    margin: 0px;
+}
+
+.follow-text {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.user-acc .follow-text span  {
+    color: #424874;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.user-card {
+    display: flex;
+}
+
+.user-own .user-title .card-title:hover {
+    color: #5b64a4;
+}
+
+.user-own .user-title .card-title {
+    cursor: pointer;
+}

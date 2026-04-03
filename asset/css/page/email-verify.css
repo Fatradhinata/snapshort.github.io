@@ -1,0 +1,74 @@
+.right-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    width: 65%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.input-code-parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+.input-code-parent .box-parent {
+    background-color: #EBEBEB;
+    width: 50px;
+    height: 70px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-parent input {
+    border: none;
+    outline: none;
+    width: 1ch;
+    height: fit-content;
+    font-size: 23px;
+    font-family: "poppins";
+    text-align: center;
+    background-color: transparent;
+    padding: 1.4vw;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.new-code {
+    font-weight: 500;
+    text-align: center;
+}
+
+.new-code span {
+    color: #5C64A2;
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+        filter: brightness(1.2)
+    }
+}
+
+.back-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(1.5)
+    }
+}
